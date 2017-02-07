@@ -1,0 +1,39 @@
+* {
+
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  position: relative;
+
+}
+
+.kenzie {
+
+  background-size: cover;
+  background-image: url('kenzie.jpg');
+
+  float: left;
+  width: 1920px;
+  height: 1076px;
+   
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.newsection {
+
+  height: 1076px;
+  width: 100%;
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+.expinfo {
+
+  margin-right: 60px;
+  padding-right: 10px;
+
+}
