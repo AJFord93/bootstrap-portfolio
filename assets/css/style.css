@@ -24,16 +24,70 @@ body {
 
 .newsection {
 
-  height: 1076px;
+  height: 1450px;
   width: 100%;
   background-color: #FFF;
   margin: 0;
   padding: 0;
 }
 
+.text-justify {
+
+  margin-top: 30px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
 .expinfo {
 
   margin-right: 60px;
-  padding-right: 10px;
 
+}
+
+.container {
+
+  height: 800px;
+  width: 100%;
+  
+
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 800px !important;
+
+}
+
+.photosec {
+  color: black;
+  text-align: center;
+  margin-bottom: 3%;
+
+}
+
+.bottomsec {
+
+  height: 400px;
+  width: 100%;
+}
+
+
+.contacts {
+
+  margin-top: 100px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.conpos {
+
+  margin-top: 90px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.icons {
+
+  height: 72px;
+  width: 72px;
 }
