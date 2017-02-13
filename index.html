@@ -30,6 +30,18 @@
 
 <body>
 
+<script type="text/javascript">
+    
+    $(document).on('click', 'a', function(event){
+     event.preventDefault();
+
+     $('html, body').animate({
+         scrollTop: $( $.attr(this, 'href') ).offset().top
+     }, 500);
+ });
+    
+</script>
+
 <header id="section1">
  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -121,14 +133,11 @@
         <div class="row">
             <div class="col-md-12">
 
-    
-
-
-
 
         </div>
 
     </div>
+    <div class="carouselcontain">
 
         <div class="row" id="section2">
 
@@ -174,7 +183,68 @@
 
 </div>
 
+</div> <!-- Carousel Cotain -->
+
         </div> <!-- Row End -->
+
+<div class="techport">
+         <div class="container-fluid">
+        <div class="row">
+        <div class="col-md-12">
+          
+            <div class="col-md-6 text-center">
+          <div class="container text-center" id="my-portfolio">
+    <div class="row">
+      <div class="col-md-12">
+
+        <h1>Portfolio</h1>
+        <br><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="well">
+          <img class="img-rounded" src="assets/images/place.png" width="300" alt="Role Playing Game">
+          <h2>RPG Game</h2>
+          <a class="btn btn-danger" href="#" role="button">Play Now</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="well">
+          <img class="img-rounded" src="assets/images/place.png" width="300" alt="Trivia Game">
+          <h2>Trivia</h2>
+          <a class="btn btn-danger" href="#" role="button">Play Now</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="well">
+          <img class="img-rounded" src="assets/images/place.png" width="300" alt="Hangman Game">
+          <h2>Hangman</h2>
+          <a class="btn btn-danger" href="#" role="button">Play Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="well">
+          <img class="img-rounded" src="assets/images/place.png" width="300" alt="Widget">
+          <h2>Widget</h2>
+          <a class="btn btn-danger" href="#" role="button">Play Now</a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="well">
+          <img class="img-rounded" src="assets/images/place.png" width="300" alt="Rock Paper Scissors Game">
+          <h2>Rock Paper Scissors</h2>
+          <a class="btn btn-danger" href="#" role="button">Play Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </div>
+  </div>
 
     <div class="container-fluid">
         <div class="row">
@@ -218,6 +288,8 @@
         </div> <!---row -->
 
     </div>
+
+
 	 
 		
 			
